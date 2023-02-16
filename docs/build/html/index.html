@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to the documentation for geospatial analysis! &mdash; geospatial-analysis with python 1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/custom.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            geospatial-analysis with python
+              <img src="_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                1.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Welcome to the documentation for geospatial analysis!</a><ul>
+<li><a class="reference internal" href="#how-to-install-required-packages">How to install required packages</a><ul>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#documentation-for-the-classes">Documentation for the classes</a></li>
+<li><a class="reference internal" href="#loadwfs">loadWFS</a></li>
+<li><a class="reference internal" href="#cityroute">cityroute</a></li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+<li><a class="reference internal" href="#documentation">Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">geospatial-analysis with python</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Welcome to the documentation for geospatial analysis!</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="welcome-to-the-documentation-for-geospatial-analysis">
+<h1>Welcome to the documentation for geospatial analysis!<a class="headerlink" href="#welcome-to-the-documentation-for-geospatial-analysis" title="Permalink to this heading"></a></h1>
+<p>To get started with using Python to analyze geospatial data and plan the perfect route to your destination, this documentation provides a step-by-step guide to the process. With increasing traffic and environmental concerns, cycling and walking have become a popular mode of transportation, and finding the most efficient and enjoyable route can be a challenge. By using geospatial data and Python, you can easily find the best bike route to your office building or any other destination.</p>
+<section id="how-to-install-required-packages">
+<h2>How to install required packages<a class="headerlink" href="#how-to-install-required-packages" title="Permalink to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>Either install a Python IDE or create a Python virtual environment with Conda to install the packages required</p></li>
+<li><p>Install packages required, you can use the provided requirements.txt file</p></li>
+<li><p>Use the different clases to calculate your prefered route</p></li>
+</ol>
+<section id="installation">
+<h3>Installation<a class="headerlink" href="#installation" title="Permalink to this heading"></a></h3>
+<dl>
+<dt>Configure project environment (Either A. Install an IDE OR B. Create a Virtual Environment)</dt><dd><ol class="upperalpha simple">
+<li><p>Install an IDE such as Pycharm (www.jetbrains.com/pycharm/download/)</p></li>
+</ol>
+<ul>
+<li><p>Open the script file folder</p></li>
+<li><p>Configure the Base Project Interpreter (File -&gt; Settings -&gt; Project Interpreter) Base Project Interpreter: pyenv version 3.9.13 (pyenv was installed before creating the new project through ‘pyenv install 3.7.0’)</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In my case, when I tried to install the requirements, my whole enviroment was messed up.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Manually install packages to project interpreter (Pycharm -&gt; Preferences -&gt; Project -&gt; Project Interpreter -&gt; plus button on the lower left side of the package table) and apply changes OR type the command below on the activated virtual environment.</p>
+<blockquote>
+<div><div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">pycharm install -r requirements.txt</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+<ol class="upperalpha" start="2">
+<li><p>Install Conda (<a class="reference external" href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html</a>)</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Either create a new Conda environment or use an existing one</p></li>
+</ol>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">conda create --name myenv python=3.9</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Activate the conda environment:</p></li>
+</ol>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">conda activate myenv</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>Install requirements using the provided requirements.txt file</p></li>
+</ol>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">conda install --file requirements.txt</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ol>
+</dd>
+</dl>
+<p>Use the different classes to calculate your preferred route.</p>
+</section>
+</section>
+<section id="documentation-for-the-classes">
+<h2>Documentation for the classes<a class="headerlink" href="#documentation-for-the-classes" title="Permalink to this heading"></a></h2>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="loadwfs">
+<h2>loadWFS<a class="headerlink" href="#loadwfs" title="Permalink to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="loadWFS.loadWFS">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">loadWFS.</span></span><span class="sig-name descname"><span class="pre">loadWFS</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">wfsUrl</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">xmin</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ymin</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">xmax</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ymax</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/loadWFS.html#loadWFS"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#loadWFS.loadWFS" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</section>
+<section id="cityroute">
+<h2>cityroute<a class="headerlink" href="#cityroute" title="Permalink to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="cityroute.cityroute">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">cityroute.</span></span><span class="sig-name descname"><span class="pre">cityroute</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">city</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">origin_location</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dest_location</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">network_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'bike'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">weight</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'length'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cityroute.html#cityroute"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cityroute.cityroute" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</section>
+<section id="indices-and-tables">
+<h2>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+<section id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this heading"></a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>Checkout`Spinx-doc &lt;<a class="reference external" href="https://www.sphinx-doc.org/en/master/index.html">https://www.sphinx-doc.org/en/master/index.html</a>&gt;`_ to learn how to document this repo using Sphinx.</p></li>
+</ul>
+</div></blockquote>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Sander van der Plas.</p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

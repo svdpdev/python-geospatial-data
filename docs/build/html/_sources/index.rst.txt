@@ -1,0 +1,17 @@
+Documentation
+=============
+
+The ``loadWFS`` class
+*****************************
+.. autoclass:: simpleble.SimpleBleClient
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+The ``cityRoute`` class
+*****************************
+.. autoclass:: simpleble.SimpleBleDevice
+    :members:
+    :undoc-members:
+    :show-inheritance:
